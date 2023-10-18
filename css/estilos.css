@@ -1,14 +1,14 @@
 :root {
-  --cinza: #aaa;
-  --vermelha: #e93d50;
-  --vermelha-escura: #af303f;
+  --cinza: #1900ff;
+  --vermelha: #001faa;
+  --vermelha-escura: #2f00ff;
   --branca: #fff;
-  --luz: rgb(229, 255, 0);
+  --luz: #1900ff;
 }
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
+  background: linear-gradient(45deg, #00fff2 0%,#5900ff 100%);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -24,7 +24,7 @@ h1 {
 
 .teclado {
   background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
-  box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
+  box-shadow: 6px 8px 0 6px #00c2e4, 10px 10px 10px #000;
   border-radius: 30px;
   display: grid;
   gap: 10px;
@@ -79,7 +79,7 @@ h1 {
 }
 .tecla_tim{
   background-image: url(/aluramidi-curso-arquivos-iniciais/images/ney\ e\ lula.jpeg);
-  background-size: 130%;
+  background-size: 139%;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -104,6 +104,18 @@ h1 {
 .tecla_psh{
   background-image: url(/aluramidi-curso-arquivos-iniciais/images/corsinha.jpeg);
   background-size: 106%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.tecla_tic{
+  background-image: url(/aluramidi-curso-arquivos-iniciais/images/images\ \(2\).jpeg);
+  background-size: 179%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.tecla_tom{
+  background-image: url(/aluramidi-curso-arquivos-iniciais/images/NEYMAR);
+  background-size: 149%;
   background-repeat: no-repeat;
   background-position: center;
 }
